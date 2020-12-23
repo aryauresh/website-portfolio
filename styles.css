@@ -1,0 +1,278 @@
+body{
+
+  margin: 0;
+}
+.container-fluid
+{
+   text-align: center;
+   padding-left: 9%;
+   padding-right: 4%;
+   padding-top: 1%;
+   padding-bottom: 6%;
+}
+#homepage{
+  background-image: linear-gradient( to bottom right,#7EE8FA,#EEC0C6);
+  height: 610px;
+}
+.navbar{
+  padding-bottom:0rem;
+  padding-left: 0;
+}
+.link{
+  color: white
+}
+.link:hover{
+  color: black;
+
+}
+.nav-item{
+  padding: 0 20px;
+  padding-right: 6rem;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-brand{
+  font-family: 'Mrs Saint Delafield', cursive;
+  color: #e6739f;
+  padding: 0 20px;
+  padding-right: 5rem;
+  font-size: 2.5rem;
+  font-weight: 80%;
+  top: 1.9rem;
+  padding-left: 4.5rem;
+}
+.image-1{
+  size: 80%;
+  padding-left: 2rem;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+  color: black;
+  font-size: 7rem;
+}
+.welcome{
+  color: white;
+  line-height: 20px;
+}
+.i{
+  font-family:  'Mrs Saint Delafield', cursive;
+  line-height: 4.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.content{
+  padding-top: 4rem;
+}
+.about{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: black;
+}
+.about-content{
+  background-color: #EEC0C6;
+  padding: 5rem 4rem 5rem 5rem;
+  height: 640px;
+}
+.c-2{
+  padding-top: 5rem;
+}
+.c-1{
+  padding-left: 2rem;
+  height: 60rem;
+  top: -88px;
+  left: 130px;
+}
+.c{
+  background-color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  position: absolute;
+  top: 90px;
+  width: 60%;
+  height: 40%;
+  padding: 5rem 2rem 4rem 2rem;
+}
+.btn1{
+  width: 150px;
+  height: 50px;
+  background-color: #E58C8A;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-weight: 80%;
+  color: white;
+}
+.btn1:hover{
+  background-color: white;
+}
+.img-2{
+  width: 80%;
+}
+.btn-2{
+  width: 150px;
+  height: 50px;
+  background-color: #65d6ce;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-weight: 80%;
+  color: white;
+}
+#works{
+  padding: 7rem 6rem 5rem 6rem;
+}
+.gallery {
+  padding: 0 0 4rem 0;
+}
+
+.img-container {
+  width: 100%;
+  height: 500px;
+  cursor: pointer;
+  overflow: hidden;
+  &:hover .img-content-hover {
+    display: block;
+  }
+}
+#my-works{
+  padding-bottom: 2rem;
+}
+.my{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #251f44;
+  font-size: 3rem;
+  background-color: #fdb827;
+  bottom: 2rem;
+}
+img {
+	width: 100%;
+  height: 500px;
+	object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.img-content-hover {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  display: none;
+  padding: 1rem;
+  background: $white;
+  font-weight: 400;
+  margin-top: 1.25rem;
+  margin-left: -2rem;
+}
+
+.title {
+  color: $black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.category {
+  font-size: 1rem;
+  color: $gray;
+}
+
+.img-content {
+  display: none;
+}
+#contact-me {
+  padding: 3% 7% 3% 7%;
+  text-align: center;
+  background-color: ##EEC0C6;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+h4{
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+#contact-me{
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 5rem;
+
+}
+.contact-form{
+  padding-left: 24rem;
+
+}
+.form{
+  padding-top: 3rem;
+  width: 50%;
+  height: 60%;
+  background-image: url('map.png');
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+#footer{
+ border-color: white;
+ text-align: center;
+ padding: 5% 0% 8%;
+ background-color: #16697a;
+}
+.social-media-logos{
+  padding:2% 0%;
+  color: white;
+}
+.logos{
+  padding:0 2%;
+}
+@media (max-width:680px) {
+  #homepage{
+    height: 60rem;
+  }
+  .image-1{
+    left: 20px;
+  }
+  .content{
+    left: 120px;
+    top: -9rem;
+  }
+  .c{
+    left: -90px;
+  }
+  .c-2{
+    width: 500px;
+    height: 700px;
+  }
+  .about-content{
+    top: 7rem;
+    height: 40rem;
+  }
+  .img-2{
+    visibility: hidden;
+  }
+  .img-container{
+    height: 15rem;
+    width: 22rem;
+  }
+  .im{
+    height: 15rem;
+    width: 20rem;
+  }
+  .contact-form{
+    padding-left:8rem;
+  }
+  .form{
+    width: 200px;
+  }
+}
